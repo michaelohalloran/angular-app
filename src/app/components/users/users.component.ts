@@ -10,6 +10,7 @@ export class UsersComponent implements OnInit {
 
   users: User[];
   loaded: boolean = false;
+  enableAdd: boolean = true;
 
   constructor() { }
 
@@ -26,6 +27,7 @@ export class UsersComponent implements OnInit {
             city: 'Reno',
             state: 'NV'
           },
+          image: 'http://lorempixel.com/600/600/people/3',
         },
         {
           firstName: 'David',
@@ -36,6 +38,7 @@ export class UsersComponent implements OnInit {
             city: 'Missoula',
             state: 'MT'
           },
+          image: 'http://lorempixel.com/600/600/people/2',
         },
         {
           firstName: 'Matt',
@@ -46,6 +49,7 @@ export class UsersComponent implements OnInit {
             city: 'Honolulu',
             state: 'HI'
           },
+          image: 'http://lorempixel.com/600/600/people/1',
         }
       ];
 
